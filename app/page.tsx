@@ -138,6 +138,7 @@ const sections = [
   { id: "tarihsel", title: "Tarihsel Gelişim" },
   { id: "sonuc", title: "Sonuç" },
   { id: "anahtar", title: "Anahtar Kelimeler" },
+  { id: "kaynakcalar", title: "Kaynakçalar" },
 ]
 
 export default function PostmodernPresentation() {
@@ -795,6 +796,62 @@ export default function PostmodernPresentation() {
             <p className="text-white text-2xl font-bold tracking-wider">DÜŞÜN, SORGULA, YENİDEN KUR.</p>
           </div>
           
+        </div>
+      </section>
+
+      {/* Section 11: Kaynakçalar */}
+      <section
+        id="kaynakcalar"
+        className="min-h-screen flex items-center justify-center bg-[#1a1a1a] relative overflow-hidden"
+      >
+        <div className="absolute inset-0 opacity-20">
+          <img
+            src="/images/city-of-layers.jpg"
+            alt="Kaynakça arkaplan"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto px-8 py-20">
+          <h2 className="text-5xl md:text-6xl font-black text-white mb-12">
+            KAYNAKÇALAR
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white/10 backdrop-blur-sm border-l-4 border-[#c13b2a] p-8">
+              <h3 className="text-2xl font-black text-white mb-6">Kitaplar</h3>
+              <div className="space-y-5">
+                <p className="text-white/90 leading-relaxed">Antmen, A. (2008). 20. Yüzyıl Batı Sanatında Akımlar. İstanbul: Sel Yayıncılık.</p>
+                <p className="text-white/90 leading-relaxed">Barnard, M. (2013). Sanat, Tasarım ve Görsel Kültür. (G. Korkmaz, Çev.). Ankara: Ütopya Yayınevi.</p>
+                <p className="text-white/90 leading-relaxed">Becer, E. (2015). Modern Sanat ve Grafik Tasarım. Ankara: Dost Kitabevi Yayınları.</p>
+                <p className="text-white/90 leading-relaxed">Eskilson, S. J. (2012). Grafik Tasarım: Yeni Bir Tarih. (E. Kılıç, Çev.). İstanbul: Literatür Yayıncılık.</p>
+                <p className="text-white/90 leading-relaxed">Meggs, P. B. & Purvis, A. W. (2012). Meggs&apos; History of Graphic Design. New Jersey: John Wiley & Sons.</p>
+                <p className="text-white/90 leading-relaxed">Poynor, R. (2003). No More Rules: Graphic Design and Postmodernism. New Haven: Yale University Press.</p>
+                <p className="text-white/90 leading-relaxed">Twemlow, A. (2011). Grafik Tasarım Ne İçindir?. (D. Öztürk, Çev.). İstanbul: YEM Yayın.</p>
+              </div>
+            </div>
+
+            <div className="bg-[#c13b2a] p-8">
+              <h3 className="text-2xl font-black text-white mb-6">İnternet Kaynakları ve Makaleler</h3>
+              <div className="space-y-6">
+                <div className="border-b border-white/30 pb-4">
+                  <p className="text-white font-bold">Design Museum</p>
+                  <p className="text-white/90">Postmodernism: Style and Subversion 1970–1990.</p>
+                  <p className="text-white/80 text-sm">designmuseum.org</p>
+                </div>
+                <div className="border-b border-white/30 pb-4">
+                  <p className="text-white font-bold">AIGA</p>
+                  <p className="text-white/90">Eye Magazine Archive - Postmodernism and Graphic Design.</p>
+                  <p className="text-white/80 text-sm">aiga.org</p>
+                </div>
+                <div>
+                  <p className="text-white font-bold">Britannica</p>
+                  <p className="text-white/90">Postmodernism in Art and Architecture.</p>
+                  <p className="text-white/80 text-sm">britannica.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
